@@ -35,4 +35,4 @@ The test.exe binary launches calc.exe.
 # Limitations
 
 * I had some issues making it work on some executables. Be aware of this in case you face problems.
-* Each executable will have a different number of breakpoints. Append as 'g' to out.wds as many times as necessary to automatically continue when a breakpoint is hit.
+* Each executable will have a different number of breakpoints. Append 'g' to out.wds as many times as necessary to automatically continue when a breakpoint is hit.
