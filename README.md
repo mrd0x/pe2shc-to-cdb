@@ -27,3 +27,12 @@ Convert shellcode generated using <a target="_blank" href="https://github.com/ha
 	cdb.exe -pd -cf out.wds -o notepad.exe
 
 # Example
+
+The test.exe binary launches calc.exe.
+
+![Example](https://github.com/mrd0x/pe2shc-to-cdb/blob/main/example.gif)
+
+# Limitations
+
+* I had some issues making it work on some executables. Be aware of this in case you face problems.
+* Each executable will have a different number of breakpoints. Append as 'g' to out.wds as many times as necessary to automatically continue when a breakpoint is hit.
