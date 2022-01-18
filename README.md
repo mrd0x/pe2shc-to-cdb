@@ -1,5 +1,5 @@
 # pe2shc-to-cdb
-Convert shellcode generated using <a target="_blank" href="https://github.com/hasherezade/pe_to_shellcode">pe_to_shellcode</a> to cdb format.
+This tool will convert shellcode generated using <a target="_blank" href="https://github.com/hasherezade/pe_to_shellcode">pe_to_shellcode</a> to cdb format. Cdb.exe is a LOLBIN which can help evade detection & application whitelisting. More information can be found about it in my <a target="_blank" href="https://mrd0x.com/the-power-of-cdb-debugging-tool/">blog post</a>.
 
 # Requirements
 
